@@ -1,5 +1,6 @@
 package com.chestnut.machineandcrafts;
 
+import com.chestnut.machineandcrafts.block.ModBlocks;
 import com.chestnut.machineandcrafts.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
@@ -37,6 +38,7 @@ public class MachineAndCrafts {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 

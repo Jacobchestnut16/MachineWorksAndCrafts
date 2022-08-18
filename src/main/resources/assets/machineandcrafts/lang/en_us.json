@@ -1,3 +1,7 @@
 {
-  "item.machineandcrafts.pulverized_iron" : "Pulverized Iron"
+  "item.machineandcrafts.pulverized_iron" : "Pulverized Iron",
+  "item.machineandcrafts.pulverized_iron_ore" : "Pulverized Iron Ore",
+
+  "itemGroup.pulverized_dust": "Pulverized Dust",
+  "itemGroup.pulverized_ore": "Pulverized Ore"
 }
