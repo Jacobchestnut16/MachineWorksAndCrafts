@@ -25,6 +25,8 @@ import org.slf4j.Logger;
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(MachineAndCrafts.MODID)
 public class MachineAndCrafts {
+    //after changes upload through commit tab and add a comment
+
     // Define mod id in a common place for everything to reference
     public static final String MODID = "machineandcrafts";
     // Directly reference a slf4j logger
