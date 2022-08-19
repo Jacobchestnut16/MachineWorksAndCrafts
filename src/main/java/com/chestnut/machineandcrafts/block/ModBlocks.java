@@ -21,10 +21,24 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MachineAndCrafts.MODID);
 
-    public  static final RegistryObject<Block> PULVERIZED_IRON_ORE = registryBlock("pulverized_iron_ore",
-            ()-> new DropperBlock(BlockBehaviour.Properties.of(Material.CLAY).strength(1f).requiresCorrectToolForDrops()),
+    public  static final RegistryObject<Block> PULVERIZED_COPPER_ORE = registryBlock("pulverized_copper_ore",
+            ()-> new Block(BlockBehaviour.Properties.of(Material.CLAY).strength(1f).requiresCorrectToolForDrops()),
             ModCreativeModeTag.PULVERIZED_ORE);
 
+    public  static final RegistryObject<Block> PULVERIZED_GOLD_ORE = registryBlock("pulverized_gold_ore",
+            ()-> new Block(BlockBehaviour.Properties.of(Material.CLAY).strength(1f).requiresCorrectToolForDrops()),
+            ModCreativeModeTag.PULVERIZED_ORE);
+    public  static final RegistryObject<Block> PULVERIZED_IRON_ORE = registryBlock("pulverized_iron_ore",
+            ()-> new Block(BlockBehaviour.Properties.of(Material.CLAY).strength(1f).requiresCorrectToolForDrops()),
+            ModCreativeModeTag.PULVERIZED_ORE);
+
+    public  static final RegistryObject<Block> PULVERIZED_NICKEL_ORE = registryBlock("pulverized_nickel_ore",
+            ()-> new Block(BlockBehaviour.Properties.of(Material.CLAY).strength(1f).requiresCorrectToolForDrops()),
+            ModCreativeModeTag.PULVERIZED_ORE);
+
+    public  static final RegistryObject<Block> PULVERIZED_SILVER_ORE = registryBlock("pulverized_silver_ore",
+            ()-> new Block(BlockBehaviour.Properties.of(Material.CLAY).strength(1f).requiresCorrectToolForDrops()),
+            ModCreativeModeTag.PULVERIZED_ORE);
 
 
 

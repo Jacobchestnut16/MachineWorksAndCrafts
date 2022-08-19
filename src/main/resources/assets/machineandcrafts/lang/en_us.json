@@ -1,6 +1,30 @@
 {
+  "item.machineandcrafts.chicken_wire" : "Chicken Wire",
+  "item.machineandcrafts.copper" : "Copper",
+  "item.machineandcrafts.copper_wire" : "Copper Wire",
+  "item.machineandcrafts.nickel" : "Nickel",
+  "item.machineandcrafts.sifting_frame" : "Sifting Frame",
+  "item.machineandcrafts.wire" : "Wire",
+  "item.machineandcrafts.cupronickel" : "Cupronickel",
+  "item.machineandcrafts.cupronickel_ingot" : "Cupronickel",
+  "item.machineandcrafts.nickel_ingot" : "Nickel Ingot",
+  "item.machineandcrafts.copper_ingot" : "Copper Ingot",
+  "item.machineandcrafts.silver_ingot" : "Silver Ingot",
+  "item.machineandcrafts.steel_ingot" : "Steel Ingot",
+
+
   "item.machineandcrafts.pulverized_iron" : "Pulverized Iron",
-  "item.machineandcrafts.pulverized_iron_ore" : "Pulverized Iron Ore",
+  "item.machineandcrafts.pulverized_copper" : "Pulverized Copper",
+  "item.machineandcrafts.pulverized_silver" : "Pulverized Silver",
+  "item.machineandcrafts.pulverized_gold" : "Pulverized Gold",
+  "item.machineandcrafts.pulverized_nickel" : "Pulverized Nickel",
+
+  "block.machineandcrafts.pulverized_iron_ore" : "Pulverized Iron Ore",
+  "block.machineandcrafts.pulverized_copper_ore" : "Pulverized Copper Ore",
+  "block.machineandcrafts.pulverized_silver_ore" : "Pulverized Silver Ore",
+  "block.machineandcrafts.pulverized_gold_ore" : "Pulverized Gold Ore",
+  "block.machineandcrafts.pulverized_nickel_ore" : "Pulverized Nickel Ore",
+
 
   "itemGroup.pulverized_dust": "Pulverized Dust",
   "itemGroup.pulverized_ore": "Pulverized Ore",

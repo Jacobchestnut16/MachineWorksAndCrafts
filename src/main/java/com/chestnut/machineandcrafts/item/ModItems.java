@@ -26,6 +26,24 @@ public class ModItems {
     public static final RegistryObject<Item> NICKEL = ITEMS.register("nickel",
             ()-> new Item(new Item.Properties().tab(ModCreativeModeTag.METAL)));
 
+    public static final RegistryObject<Item> CUPRONICKEL = ITEMS.register("cupronickel",
+            ()-> new Item(new Item.Properties().tab(ModCreativeModeTag.METAL)));
+
+    public static final RegistryObject<Item> CUPRONICKEL_INGOT = ITEMS.register("cupronickel_ingot",
+            ()-> new Item(new Item.Properties().tab(ModCreativeModeTag.METAL)));
+
+    public static final RegistryObject<Item> NICKEL_INGOT = ITEMS.register("nickel_ingot",
+            ()-> new Item(new Item.Properties().tab(ModCreativeModeTag.METAL)));
+
+    public static final RegistryObject<Item> COPPER_INGOT = ITEMS.register("copper_ingot",
+            ()-> new Item(new Item.Properties().tab(ModCreativeModeTag.METAL)));
+
+    public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot",
+            ()-> new Item(new Item.Properties().tab(ModCreativeModeTag.METAL)));
+
+    public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",
+            ()-> new Item(new Item.Properties().tab(ModCreativeModeTag.METAL)));
+
 
     //Electricity
     public static final RegistryObject<Item> COPPER_WIRE = ITEMS.register("copper_wire",
@@ -37,6 +55,18 @@ public class ModItems {
 
     //Pulverized
     public static final RegistryObject<Item> PULVERIZED_IRON = ITEMS.register("pulverized_iron",
+            ()-> new Item(new Item.Properties().tab(ModCreativeModeTag.PULVERIZED_DUST)));
+
+    public static final RegistryObject<Item> PULVERIZED_COPPER = ITEMS.register("pulverized_copper",
+            ()-> new Item(new Item.Properties().tab(ModCreativeModeTag.PULVERIZED_DUST)));
+
+    public static final RegistryObject<Item> PULVERIZED_GOLD = ITEMS.register("pulverized_gold",
+            ()-> new Item(new Item.Properties().tab(ModCreativeModeTag.PULVERIZED_DUST)));
+
+    public static final RegistryObject<Item> PULVERIZED_NICKEL = ITEMS.register("pulverized_nickel",
+            ()-> new Item(new Item.Properties().tab(ModCreativeModeTag.PULVERIZED_DUST)));
+
+    public static final RegistryObject<Item> PULVERIZED_SILVER = ITEMS.register("pulverized_silver",
             ()-> new Item(new Item.Properties().tab(ModCreativeModeTag.PULVERIZED_DUST)));
 
     public static void register(IEventBus eventBus){

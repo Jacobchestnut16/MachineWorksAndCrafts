@@ -36,7 +36,7 @@ public class ModCreativeModeTag {
     public static final CreativeModeTab METAL = new CreativeModeTab("metal") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModItems.COPPER.get());
+            return new ItemStack(ModItems.COPPER_INGOT.get());
         }
     };
 }
