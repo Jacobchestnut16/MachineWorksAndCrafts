@@ -3,5 +3,8 @@
   "item.machineandcrafts.pulverized_iron_ore" : "Pulverized Iron Ore",
 
   "itemGroup.pulverized_dust": "Pulverized Dust",
-  "itemGroup.pulverized_ore": "Pulverized Ore"
+  "itemGroup.pulverized_ore": "Pulverized Ore",
+  "itemGroup.metal": "Metal",
+  "itemGroup.electricity": "Electricity",
+  "itemGroup.stone_age": "Stone Age"
 }
