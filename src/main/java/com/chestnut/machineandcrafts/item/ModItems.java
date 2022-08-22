@@ -15,6 +15,12 @@ public class ModItems {
     public static final RegistryObject<Item> CHICKEN_WIRE = ITEMS.register("chicken_wire",
             ()-> new Item(new Item.Properties().tab(ModCreativeModeTag.STONE_AGE)));
 
+    public static final RegistryObject<Item> ORE_BUCKET = ITEMS.register("ore_bucket",
+            ()-> new Item(new Item.Properties().tab(ModCreativeModeTag.STONE_AGE)));
+
+    public static final RegistryObject<Item> ORE_BUCKET_UNFIRED = ITEMS.register("ore_bucket_unfired",
+            ()-> new Item(new Item.Properties().tab(ModCreativeModeTag.STONE_AGE)));
+
     public static final RegistryObject<Item> SIFTING_FRAME = ITEMS.register("sifting_frame",
             ()-> new Item(new Item.Properties().tab(ModCreativeModeTag.STONE_AGE)));
 
@@ -38,7 +44,13 @@ public class ModItems {
     public static final RegistryObject<Item> COPPER_INGOT = ITEMS.register("copper_ingot",
             ()-> new Item(new Item.Properties().tab(ModCreativeModeTag.METAL)));
 
+    public static final RegistryObject<Item> COPPER_ROD = ITEMS.register("copper_rod",
+            ()-> new Item(new Item.Properties().tab(ModCreativeModeTag.METAL)));
+
     public static final RegistryObject<Item> SILVER_INGOT = ITEMS.register("silver_ingot",
+            ()-> new Item(new Item.Properties().tab(ModCreativeModeTag.METAL)));
+
+    public static final RegistryObject<Item> STEEL_ROD = ITEMS.register("steel_rod",
             ()-> new Item(new Item.Properties().tab(ModCreativeModeTag.METAL)));
 
     public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot",

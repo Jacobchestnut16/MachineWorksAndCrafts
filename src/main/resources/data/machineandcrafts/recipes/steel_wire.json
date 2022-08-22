@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "machineandcrafts:steel_rod"
+    }
+  },
+  "result": {
+    "count": 6,
+    "item": "machineandcrafts:steel_wire"
+  }
+}

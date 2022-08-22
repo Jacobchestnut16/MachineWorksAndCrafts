@@ -9,8 +9,12 @@
   "item.machineandcrafts.cupronickel_ingot" : "Cupronickel",
   "item.machineandcrafts.nickel_ingot" : "Nickel Ingot",
   "item.machineandcrafts.copper_ingot" : "Copper Ingot",
-  "item.machineandcrafts.silver_ingot" : "Silver Ingot",
+  "item.machineandcrafts.copper_rod" : "Copper Rod",
+  "item.machineandcrafts.steel_rod" : "Steel Rod",
+  "item.machineandcrafts.silver_rod" : "Silver Ingot",
   "item.machineandcrafts.steel_ingot" : "Steel Ingot",
+  "item.machineandcrafts.ore_bucket" : "Ore Bucket",
+  "item.machineandcrafts.ore_bucket_unfired" : "Ore Bucket Unfired",
 
 
   "item.machineandcrafts.pulverized_iron" : "Pulverized Iron",

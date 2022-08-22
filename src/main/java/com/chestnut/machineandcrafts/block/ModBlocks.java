@@ -6,9 +6,7 @@ import com.chestnut.machineandcrafts.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.DropperBlock;
-import net.minecraft.world.level.block.SandBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -22,22 +20,23 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MachineAndCrafts.MODID);
 
     public  static final RegistryObject<Block> PULVERIZED_COPPER_ORE = registryBlock("pulverized_copper_ore",
-            ()-> new Block(BlockBehaviour.Properties.of(Material.CLAY).strength(1f).requiresCorrectToolForDrops()),
+            ()-> new GravelBlock(BlockBehaviour.Properties.of(Material.GRASS).strength(1f).sound(SoundType.SAND)),
             ModCreativeModeTag.PULVERIZED_ORE);
 
     public  static final RegistryObject<Block> PULVERIZED_GOLD_ORE = registryBlock("pulverized_gold_ore",
-            ()-> new Block(BlockBehaviour.Properties.of(Material.CLAY).strength(1f).requiresCorrectToolForDrops()),
-            ModCreativeModeTag.PULVERIZED_ORE);
-    public  static final RegistryObject<Block> PULVERIZED_IRON_ORE = registryBlock("pulverized_iron_ore",
-            ()-> new Block(BlockBehaviour.Properties.of(Material.CLAY).strength(1f).requiresCorrectToolForDrops()),
+            ()-> new GravelBlock(BlockBehaviour.Properties.of(Material.GRASS).strength(1f).sound(SoundType.SAND)),
             ModCreativeModeTag.PULVERIZED_ORE);
 
+    public  static final RegistryObject<Block> PULVERIZED_IRON_ORE = registryBlock("pulverized_iron_ore",
+            ()-> new GravelBlock(BlockBehaviour.Properties.of(Material.GRASS).strength(1f).sound(SoundType.SAND)),
+            ModCreativeModeTag.PULVERIZED_ORE);
+    
     public  static final RegistryObject<Block> PULVERIZED_NICKEL_ORE = registryBlock("pulverized_nickel_ore",
-            ()-> new Block(BlockBehaviour.Properties.of(Material.CLAY).strength(1f).requiresCorrectToolForDrops()),
+            ()-> new GravelBlock(BlockBehaviour.Properties.of(Material.GRASS).strength(1f).sound(SoundType.SAND)),
             ModCreativeModeTag.PULVERIZED_ORE);
 
     public  static final RegistryObject<Block> PULVERIZED_SILVER_ORE = registryBlock("pulverized_silver_ore",
-            ()-> new Block(BlockBehaviour.Properties.of(Material.CLAY).strength(1f).requiresCorrectToolForDrops()),
+            ()-> new GravelBlock(BlockBehaviour.Properties.of(Material.GRASS).strength(1f).sound(SoundType.SAND)),
             ModCreativeModeTag.PULVERIZED_ORE);
 
 
